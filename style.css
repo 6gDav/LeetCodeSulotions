@@ -29,7 +29,9 @@ h3 {
 }
 
 #filter-options {
-    font-size: 23px;
+    font-size: 29px;
+    padding: 1%;
+    border-radius: 25px;
 }
 
 #main-title {
@@ -78,7 +80,7 @@ h3 {
 }
 
 .leetcode-sulotions-container {
-    background: linear-gradient(60deg, #ffffff 0%, #eb3af1  100%);
+    background: linear-gradient(60deg, #ffffff 0%, #f5f910 10%, #eb3af1  90%);
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 20px;
@@ -96,4 +98,44 @@ h3 {
 .leetcode-sulotions-container > p {
     font-size: 25px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media (max-width: 768px) {
+    #main-title {
+        font-size: 35px;
+    }
+
+    h2 {
+        font-size: 28px;
+    }
+
+    h3 {
+        font-size: 24px;
+    }
+
+    #description-div, 
+    .leetcode-sulotions-container {
+        width: 90%;          
+        margin-left: auto;   
+        margin-right: auto;  
+        padding: 15px;       
+        box-sizing: border-box; 
+    }
+
+    .leetcode-sulotions-container {
+        border-radius: 15px; 
+    }
+
+    #description-div > p,
+    .leetcode-sulotions-container > p {
+        font-size: 20px;  
+    }
+
+    .header {
+        height: 375px;
+    }
+
+    #filter-options {
+        font-size: 20px;
+    }
 }

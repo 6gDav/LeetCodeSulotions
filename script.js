@@ -5,7 +5,6 @@ selectElement.addEventListener('change', (event) => {
     const targetElement = document.getElementById(targetId);
 
     if (targetElement) {
-        // Finom görgetés a kiválasztott szekcióhoz
         targetElement.scrollIntoView({ behavior: 'smooth' });
     }
 });

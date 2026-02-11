@@ -12,3 +12,7 @@ I mainly solve LeetCode problems for practice and to learn complex algorithms, r
 <hr>
 
 <a href="https://6gdav.github.io/LeetCodeSulotions/"> 👉 Click here to access </a>
+
+# 🪪 License
+
+I will add **The Unlicensed** license to all of my solutions. 

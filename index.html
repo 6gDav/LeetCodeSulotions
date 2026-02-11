@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LeetCodeSulotions</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section class="header-section">
+        <div class="header">
+            <h1 id="main-title"><i><a title="6gDav GitHub" href="https://github.com/6gDav">6gDav</a></i> <span
+                    id="after-name-text">LeetCode
+                    Sulotions</span></h1>
+            <p id="second-title">Welcome to my LeetCode solutions collection!</p>
+
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" viewBox="0 24 150 28" preserveAspectRatio="none">
+                <defs>
+                    <path id="gentle-wave"
+                        d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+                </defs>
+                <g class="parallax">
+                    <use href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+                    <use href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+                    <use href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+                    <use href="#gentle-wave" x="48" y="7" fill="#fff" />
+                </g>
+            </svg>
+        </div>
+
+    </section>
+    <main>
+        <section class="description-section">
+            <div>
+                <h2>Description</h2>
+                <div id="description-div">
+                    <p>
+                        This is a collection page for my LeetCode solutions. <br>
+                        I created this because GitHub’s landing page lacks a "pinning" option (for all my repos), <br>
+                        and I wanted a place to organize my code. <br>
+                        I mainly solve LeetCode problems for practice and to learn complex algorithms, rather than for
+                        job interviews.
+                    </p>
+                </div>
+                <br>
+
+                <h3>
+                    Choose a LeetCode
+                    <select id="filter-options">
+                        <option value="" disabled selected>Select an LeetCode Problem Number</option>
+                        <option value="leetcode1">LeetCode 1. </option>
+                    </select>
+                    Problem
+                </h3>
+
+                <section id="leetcode1" class="leetcode-sulotions-container">
+                    <h2>LeetCode 1.</h2>
+                    <h3><a href="https://leetcode.com/problems/two-sum/description/" target="_blank" title="LeetCode Link">Two Sum</a> ➕</h3>
+                    <h3>Programing langeuge: <a href="https://rust-lang.org/" target="_blank" title="Rust lang Link">Rust</a> 🦀</h3>
+                    <h3><a href="https://github.com/6gDav/LeetCode_problem_1_no1" target="_blank">My sulotions</a> ☺️</h3>
+                    <hr>
+                    <h3>🧠 How I solved the problem</h3>
+                    <p>
+                        I implemented a brute-force solution using nested loops. <br>
+                        To avoid the "double-counting" bug (using the same element twice), <br>
+                        the inner loop starts from the next element relative to the outer loop. <br>  
+                        This ensures that we only compare distinct pairs and find the target sum <br>
+                        without using any element more than once. <br>
+                    </p>
+                </section>
+                <br>
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>

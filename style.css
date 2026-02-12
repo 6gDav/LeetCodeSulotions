@@ -80,7 +80,7 @@ h3 {
 }
 
 .leetcode-sulotions-container {
-    background: linear-gradient(60deg, #ffffff 0%, #f5f910 10%, #eb3af1  90%);
+    background: linear-gradient(60deg, #eb3af1 0%, #f5f910 100%);
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 20px;

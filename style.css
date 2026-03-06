@@ -88,6 +88,7 @@ h3 {
     border-bottom-right-radius: 25px;
     width: 80%;
     border-image: linear-gradient(to right, transparent, black, transparent) 1;
+    margin-top: 20px;
 }
 
 .leetcode-sulotions-container > h3> a {

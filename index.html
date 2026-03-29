@@ -51,6 +51,7 @@
                         <option value="leetcode4">LeetCode 4. </option>
                         <option value="leetcode5">LeetCode 5. </option>
                     <option value="leetcode54">LeetCode 54. </option>
+<option value="leetcode6">LeetCode 6. </option>
 </select>
                 </h3>
 
@@ -129,6 +130,19 @@
             <h3>🧠 How I solved the problem</h3>
             <p>
                 I created a while loop that runs until the matrix becomes empty or the first row runs out. In the while loop I implemented four steps: 1. remove the current first row and add it to the solution vector 2. iterate through all rows and remove all last elements while pushing these to the vector 3. remove the entire last row reverse it and add it too to the solution 4. add every first element while remove these too As you see my solution based on remove and cloning.
+            </p>
+        </section>
+        <br>
+        
+        <section id="leetcode6" class="leetcode-sulotions-container">
+            <h2>LeetCode 6.</h2>
+            <h3><a href="https://leetcode.com/problems/zigzag-conversion/description/" target="_blank" title="LeetCode Link">Zigzag Conversion</a> ↯</h3>
+            <h3>Programming language: <a href="https://rust-lang.org/" target="_blank" title="Rust lang Link">https://rust-lang.org/</a> 🦀</h3>
+            <h3><a href="https://github.com/6gDav/LeetCode_problem_6_no1" target="_blank">My solutions</a> ☺️</h3>
+            <hr>
+            <h3>🧠 How I solved the problem</h3>
+            <p>
+                First, I implemented an early return for cases with only a single character. Then, I created an array of strings (acting as a matrix) based on the number of rows. I iterated through the input, pushing each character into the appropriate row index. The logic relies on the 'step' variable that increments or decrements the 'current_row' index. This 'step' changes whenever we reach the top or bottom row, determining where the next character is placed.
             </p>
         </section>
         <br>

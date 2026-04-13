@@ -17,11 +17,3 @@ I mainly solve LeetCode problems for practice and to learn complex algorithms, r
 
 I will add **The Unlicensed** license to all of my solutions. 
 
-name: Update README
-on:
-  push:
-    branches: [ main ]
-  schedule:
-    - cron: '0 0 * * *' # Minden nap éjfélkor lefut
-
-

@@ -28,6 +28,18 @@ h3 {
     font-size: 35px;
 }
 
+#filter-section {
+    position: sticky;
+    top: 2%;
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.4); 
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    padding: 20px;
+}
+
 #filter-options {
     font-size: 29px;
     padding: 1%;

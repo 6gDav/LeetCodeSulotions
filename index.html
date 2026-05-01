@@ -56,6 +56,7 @@
 <option value="leetcode7">LeetCode 7. </option>
 <option value="leetcode9">LeetCode 9. </option>
 <option value="leetcode8">LeetCode 8. </option>
+<option value="leetcode7.2">LeetCode 7.2. </option>
 </select>
                 </h3>
 
@@ -199,6 +200,19 @@
             <h3>🧠 How I solved the problem</h3>
             <p>
                 First of all, I broke down the "Atoi" conversion behavior into pieces. The first piece was removing the unnecessary whitespace from the very beginning of the string by creating a new string. After this, I implemented an early return statement if the new string is empty. I check the first character of the new string: if it is a non-digit character and not '+' or '-', I return a falsy value, which is 0. I implemented another check for the first element to filter out sign duplications. If the sign is duplicated (like '++'), I return 0 as well. I iterate through the new string and examine all characters. If the character is a number, I add it to the newly created variable. If the character is not a number (even if it's a sign in this case), I break out of the loop. The next step is the type casting. I created 4 variables: two of them help with the casting, and the others are for the state. I iterate through the string where the numbers are stored and push each element to another string. I try to convert this string to a 64-bit integer. If it's successful, I check the previously declared sign boolean. If it's true, I check if the converted integer is larger than the maximum value of a 32-bit integer; if so, I return the maximum 32-bit integer. In the case of a negative number, I do the same but with the minimum of a 32-bit integer. Finally, I parse the successfully converted value to a 32-bit integer and return it.
+            </p>
+        </section>
+        <br>
+        
+        <section id="leetcode7.2" class="leetcode-sulotions-container">
+            <h2>LeetCode 7.2.</h2>
+            <h3><a href="https://leetcode.com/problems/reverse-integer/" target="_blank" title="LeetCode Link">Reverse Integer</a> 🔄</h3>
+            <h3>Programming language: <a href="https://go.dev/" target="_blank" title="Golang lang Link">Golang</a> 🐹</h3>
+            <h3><a href="https://github.com/6gDav/LeetCode_problem_7_no1_2" target="_blank">My solutions</a> ☺️</h3>
+            <hr>
+            <h3>🧠 How I solved the problem</h3>
+            <p>
+                I implemented an if-else expression with two branches. In the first case, if the input is negative, I take its absolute value, convert it to a string, reverse it, and return it to the variable. The else block does the same but without the absolute value. Finally, I parsed the resulting string back into an integer.
             </p>
         </section>
         <br>

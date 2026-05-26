@@ -58,6 +58,7 @@
 <option value="leetcode8">LeetCode 8. </option>
 <option value="leetcode7.2">LeetCode 7.2. </option>
 <option value="leetcode1.2">LeetCode 1.2. </option>
+<option value="leetcode11">LeetCode 11. </option>
 </select>
                 </h3>
 
@@ -227,6 +228,19 @@
             <h3>🧠 How I solved the problem</h3>
             <p>
                 I implemented a brute-force solution using nested loops. To avoid the "double-counting" bug (using the same element twice), I implemted a condition that continue the loop if the "indexes" are equal with eacother. This ensures that we only compare distinct pairs and find the target sum without using any element more than once.
+            </p>
+        </section>
+        <br>
+        
+        <section id="leetcode11" class="leetcode-sulotions-container">
+            <h2>LeetCode 11.</h2>
+            <h3><a href="https://leetcode.com/problems/container-with-most-water/description/" target="_blank" title="LeetCode Link">Container With Most Water</a> 🥛</h3>
+            <h3>Programming language: <a href="https://rust-lang.org/" target="_blank" title="Rust lang Link">Rust</a> 🦀</h3>
+            <h3><a href="https://github.com/6gDav/LeetCode_problem_11_no1" target="_blank">My solutions</a> ☺️</h3>
+            <hr>
+            <h3>🧠 How I solved the problem</h3>
+            <p>
+                I used a two-pointer based solution, so I iterate through the given list from the left and the right sides. I implemented an infinite loop that breaks if the left index is greater than or equal to the right index. The loop changes the iteration helper variables according to the relation between the two current values of the list. The actual width is the difference between the right and the left indices. The actual height is the current minimum value of the bounded list elements. The actual area is the product of the actual height and actual width. If this value is greater than the previous one, then the variable will be updated with this new value.
             </p>
         </section>
         <br>

@@ -60,6 +60,7 @@
 <option value="leetcode1.2">LeetCode 1.2. </option>
 <option value="leetcode11">LeetCode 11. </option>
 <option value="leetcode11.2">LeetCode 11.2. </option>
+<option value="leetcode12">LeetCode 12. </option>
 </select>
                 </h3>
 
@@ -255,6 +256,19 @@
             <h3>🧠 How I solved the problem</h3>
             <p>
                 I used a two-pointer based solution, so I iterate through the given list from the left and the right sides. I implemented an infinite loop that breaks if the left index is greater than or equal to the right index. The loop changes the iteration helper variables according to the relation between the two current values of the list. The actual width is the difference between the right and the left indices. The actual height is the current minimum value of the bounded list elements. The actual area is the product of the actual height and actual width. If this value is greater than the previous one, then the variable will be updated with this new value.
+            </p>
+        </section>
+        <br>
+        
+        <section id="leetcode12" class="leetcode-sulotions-container">
+            <h2>LeetCode 12.</h2>
+            <h3><a href="https://leetcode.com/problems/integer-to-roman/description/" target="_blank" title="LeetCode Link">Integer to Roman</a> 🏛️</h3>
+            <h3>Programming language: <a href="https://rust-lang.org/" target="_blank" title="Rust lang Link">Rust</a> 🦀</h3>
+            <h3><a href="https://github.com/6gDav/LeetCode_problem_12_no1" target="_blank">My solutions</a> ☺️</h3>
+            <hr>
+            <h3>🧠 How I solved the problem</h3>
+            <p>
+                First of all, I created a loop that iterates backward. I defined a place variable using the iterator and the length of the string (which is basically a standard index, but calculated from the end). This variable provides the place value (ones, tens, etc.) for a match expression that evaluates every possibility. For example, the last index in the loop (which represents the ones place, or 0 in this case) triggers the 'ones' branch. This branch checks the character at the current index and returns the corresponding Roman numeral string, which is then prepended to the result container.
             </p>
         </section>
         <br>

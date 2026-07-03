@@ -65,6 +65,7 @@
 <option value="leetcode13">LeetCode 13. </option>
 <option value="leetcode13.2">LeetCode 13.2. </option>
 <option value="leetcode14">LeetCode 14. </option>
+<option value="leetcode14">LeetCode 14. </option>
 </select>
                 </h3>
 
@@ -312,6 +313,19 @@
             <h3>🧠 How I solved the problem</h3>
             <p>
                 First of all, I implemented a reversed for loop that passes each character of the given string to a switch statement, which gives back the exact value of the Roman numeral. For instance, 'I' is equal to 1. After this, I use an if statement where I subtract or add the previously processed value according to the position of the previous number.
+            </p>
+        </section>
+        <br>
+        
+        <section id="leetcode14" class="leetcode-sulotions-container">
+            <h2>LeetCode 14.</h2>
+            <h3><a href="https://leetcode.com/problems/longest-common-prefix/description/" target="_blank" title="LeetCode Link">Longest Common Prefix</a> ⟺</h3>
+            <h3>Programming language: <a href="https://go.dev/" target="_blank" title="Golang lang Link">Golang</a> 🐹</h3>
+            <h3><a href="https://github.com/6gDav/LeetCode_problem_14_no1" target="_blank">My solutions</a> ☺️</h3>
+            <hr>
+            <h3>🧠 How I solved the problem</h3>
+            <p>
+                First of all, I implemented an early return statement if the given list is empty, it returns an empty string. I wrote a method that returns the length of the shortest word in the list to optimize performance. I created a loop that goes only up to that length. Within this loop, I used a variable that stores the currently indexed character of the first element. After this, I iterated through the given list and compared every single element's character at the current index with the previously created variable. If they don't match, then the code will return the result string built so far. If the inner loop finishes successfully, it concatenates the current character to a result string.
             </p>
         </section>
         <br>
